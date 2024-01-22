@@ -28,6 +28,8 @@ func initDatabase() {
 	fmt.Println("Database Migrated")
 }
 
+func test() {}
+
 func main() {
 	app := fiber.New()
 	initDatabase()
